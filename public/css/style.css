@@ -1,0 +1,53 @@
+:root 
+{
+ --bs-font-sans-serif: 'Quicksand', sans-serif;
+}
+
+body 
+{
+    background-image: linear-gradient(to top, #F7A9A8, #FFFFFF);
+    background-repeat: no-repeat;
+}
+
+.container-xxl 
+{
+    border-radius: 10px; 
+    margin-top: 40px;
+}
+
+.shadow-custom
+{
+    box-shadow: 0 0 0.75rem rgba(0, 0, 0, 0.1);
+}
+
+a
+{
+    color: var(--bs-dark);
+}
+
+.hero
+{
+    border-radius: 10px;
+}
+
+
+.hero-div
+{
+    padding: 0;
+}
+
+
+
+footer
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+footer p 
+{
+    color: white;
+    text-align: center;
+}
