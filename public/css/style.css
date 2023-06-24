@@ -36,7 +36,36 @@ a
     padding: 0;
 }
 
+.explore-btn
+{
+    background-color: #F7A9A8;
+    border-color: #F7A9A8;
+}
 
+.explore-btn:hover
+{
+    background-color:#EF798A;
+    border-color: #EF798A;
+}
+
+
+.random-btn
+{
+    color: #F7A9A8;
+    border-color: #F7A9A8;
+}
+
+.random-btn:hover
+{
+    background-color:#EF798A;
+    border-color: #EF798A;
+}
+
+@media (max-width: 768px) {
+    .me-md-2 {
+      margin: 0.5rem;
+    }
+  }
 
 footer
 {
